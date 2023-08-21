@@ -569,7 +569,7 @@ public class NetworkingBluetooth extends CordovaPlugin {
 		byte[] data;
 		ArrayList<PluginResult> multipartMessages;
 		PluginResult pluginResult;
-		final boolean sendOKImmediately = this.mClientSocketsSendOKImmediately.get(socketId);
+		final boolean sendOKImmediately = false; //this.mClientSocketsSendOKImmediately.get(socketId);
 		String stringDataBuffer = "";
 
 		try {
